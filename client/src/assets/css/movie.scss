@@ -1,0 +1,28 @@
+.movie-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	.wrapper-movie {
+		width: 80%;
+		.movie-title {
+			text-align: center;
+		}
+		.movie-cover {
+			width: 70%;
+		}
+		.right-movie {
+			height: 100%;
+		}
+		.movie-comment {
+			width: 100%;
+			.comment-bts {
+				display: flex;
+				justify-content: flex-end;
+				align-self: flex-end;
+				margin-left: auto;
+				margin-top: 10px;
+			}
+		}
+	}
+}
